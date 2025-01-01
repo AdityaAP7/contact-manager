@@ -10,6 +10,9 @@ router.route('/').get((req,resp)=>{
 router.route('/').get((req,resp)=>{
     resp.status(200).json({message:"hiiiii"})
 })
+router.route('/').get((req,resp)=>{
+    resp.status(200).json({message:"hiiiii"})
+})
 
 
 router.route('/').post((req,resp)=>{
